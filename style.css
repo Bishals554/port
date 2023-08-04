@@ -1,0 +1,113 @@
+/* Your CSS styles go here */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    color: #007bff;
+    font-size: large;
+
+  }
+  
+  main {
+    padding: 2rem;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  #hero {
+    background-image: url('assets/image1.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    text-align: center;
+    padding: 200px 0;
+    margin: auto 0;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+  }
+  
+  #about{
+    text-align: justify;
+  }
+  #projects,
+  #contact {
+    padding: 100px 0;
+  }
+  
+  .projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+  }
+  
+  .project-card {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .project-card img {
+    max-width: 100%;
+  }
+
+  .social-icons {
+    margin-top: 20px;
+    font-size: 24px;
+  }
+  
+  .social-icons a {
+    color: #333;
+    margin-right: 10px;
+    transition: color 0.3s, font-size 0.3s;
+  }
+
+  .social-icons a:hover {
+    color: #007bff;
+    font-size: 28px;
+  }
+
+  .back-to-top {
+    position: fixed;
+    bottom: 30px; 
+    right: 30px;
+  }
+  
+
+  .back-to-top a {
+    background-color: #3c3c3c; /* Add background color to the link if needed */
+    color: #fff; /* Set the link text color */
+    padding: 10px; /* Add padding to the link to make it clickable */
+    border-radius: 50%; /* Make the link circular */
+    text-decoration: none; /* Remove underline from the link */
+  }
