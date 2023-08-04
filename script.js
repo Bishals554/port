@@ -1,4 +1,4 @@
-// Sample project data (replace with your own projects)
+
 const projectsData = [
     {
       title: 'Project 1',
@@ -15,7 +15,6 @@ const projectsData = [
       description: 'Brief description of project 3.',
       imageUrl: 'project-image-3.jpg',
     },
-    // Add more projects as needed
   ];
   
   // Generate dynamic project cards
